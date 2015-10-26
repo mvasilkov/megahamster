@@ -8,9 +8,9 @@
         "48": "ico48.png",
         "128": "ico128.png"
     },
-    "permissions": ["activeTab", "storage"],
+    "permissions": ["activeTab", "storage", "https://api.mongolab.com/"],
     "background": {
-        "scripts": ["background.js"],
+        "scripts": ["reqwest.js", "background.js"],
         "persistent": false
     },
     "browser_action": {
